@@ -1,0 +1,108 @@
+
+.topnav {
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #dd8989;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #dd8989;
+  color: white;
+}
+
+
+.landing-main{
+  background-color: #f6f6f6;
+  display: inline-block;
+}
+
+.me-image{
+  float: right;
+}
+.me-text{
+padding-top: 100px;
+padding-left: 50px;
+}
+.say-hi{
+  align-items: center;
+  padding: 15px 15px;
+  border-radius: 10px;
+  color: #dd8989;
+  border: 2px solid ;
+  border-color: #dd8989;
+  cursor: pointer;
+}
+
+.say-hi:hover{
+  background-color: #dd8989;
+  color: #f6f6f6;
+}
+
+.big-title{
+ text-align: center;
+ font-size: 48px;
+ margin-top: 0px ;
+}
+.flex-container{
+display: flex;
+height: 100%;
+padding: 10px;
+}
+.container{
+  flex-grow: 1; 
+  width: 33%; 
+  height: 100%; 
+  background: #f6f6f6;
+  margin: 10px 10px;
+  padding: 5px 8px;
+}
+.my-skills{
+  background-color: #f6f6f6;
+}
+
+
+.my-work{
+  background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  gap: 25px;
+}
+
+.grid-container{
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #dd8989;
+  padding: 20px 16px;
+  text-align: center;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
