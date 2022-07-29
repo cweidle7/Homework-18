@@ -109,11 +109,16 @@ footer{
   display: none;
 }
 #toggle {
-  background-color: #FF6767;
+  background-color: #dd8989;
   padding: 15px;
   color: white;
   font-weight: 500;
   cursor: pointer; 
+}
+
+#toggle:hover{
+  background-color: #ddd;
+  color: black;
 }
 
 ul {
@@ -124,7 +129,7 @@ ul {
 li {
   margin:0;
   padding: 15px;
-  border: 1px solid black;
+  border: 1px solid #dd8989;
 }
 #toggle img {
   width: 18px;
