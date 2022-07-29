@@ -98,7 +98,37 @@ footer{
   font-weight: 900;
 }
 
+.drop-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+}
 
+#dropDown {
+  display: none;
+}
+#toggle {
+  background-color: #FF6767;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer; 
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+}
+li {
+  margin:0;
+  padding: 15px;
+  border: 1px solid black;
+}
+#toggle img {
+  width: 18px;
+}
 
 
 
